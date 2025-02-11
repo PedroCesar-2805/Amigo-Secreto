@@ -41,3 +41,6 @@ function sortearAmigo(){
         alert("Adicione amigos.")
     }
 }
+
+
+m
