@@ -10,12 +10,14 @@ function adicionarAmigo(){
         atualizarLista()
         limparCampo()
        
+
     }    
 };
  function limparCampo() {
     validarNome = document.querySelector('input');
     validarNome.value = '';
  }
+
  function atualizarLista() {
     let listaDeAmigos = document.getElementById("listaAmigos");
     listaDeAmigos.innerHTML = ""; 
@@ -43,4 +45,5 @@ function sortearAmigo(){
 }
 
 
-m
+
+
